@@ -14,6 +14,7 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => 'client_id=VJ5t4PMtK6V0acAhmzgdibWiSmZeI0fn&client_secret=Cq3fVC9dXKW6JJe3&grant_type=client_credentials',
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/x-www-form-urlencoded'
+    'Access-Control-Allow-Origin: http://localhost:3000'
   ),
 ));
 
